@@ -1,13 +1,346 @@
-<!doctype html>
-<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="Meet Imene Hidri, an early-career C#/.NET developer. A personal introduction tailored to Gainwell Technologies."><title>Imene Hidri · C#/.NET Developer · For Gainwell</title><style>
-:root{--bg:#fffaf7;--ink:#51414e;--soft:#7c6d78;--pink:#f6dde6;--purple:#ede6f6;--sage:#e8efdf;--rose:#a15f80;--line:#eadfe5}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.8 'Trebuchet MS',Arial,sans-serif}main{max-width:950px;padding:25px 25px 0;margin:auto}a{color:inherit}nav{display:flex;align-items:center;justify-content:space-between;font-size:12px}.signature{font:italic 27px Georgia,serif;text-decoration:none}.navlinks{display:flex;gap:23px}.navlinks a{text-decoration:none}.navlinks a:hover{text-decoration:underline;text-underline-offset:5px}a:focus-visible,summary:focus-visible{outline:3px solid #ae89bc;outline-offset:5px}.hero{text-align:center;padding:44px 0 35px}.badge{display:inline-block;background:var(--purple);padding:6px 14px;border-radius:30px;font-size:11px}.avatar{width:100px;height:100px;margin:28px auto 19px;position:relative;background:var(--pink);border-radius:46% 54% 50% 45%;display:grid;place-items:center;animation:float 5s ease-in-out infinite}.initials{font:italic 45px Georgia,serif;color:#ac758d;letter-spacing:-5px;padding-right:5px}.flower{position:absolute;right:-17px;top:-9px;width:44px;height:44px;animation:spin 28s linear infinite}h1,h2,h3{font-family:Georgia,serif;font-weight:normal}h1{font-size:clamp(38px,6vw,57px);line-height:1.17;letter-spacing:-1.6px;margin:17px 0}h1 em{color:var(--rose)}.intro{max-width:590px;margin:18px auto;color:var(--soft);font-size:16px}.skills{display:flex;justify-content:center;flex-wrap:wrap;gap:8px;margin:24px 0}.skills span{font-size:11px;border:1px solid var(--line);border-radius:25px;padding:4px 12px;background:white}.button{display:inline-block;background:var(--rose);color:white;text-decoration:none;font-size:13px;padding:11px 23px;border-radius:25px;transition:transform .2s,box-shadow .2s}.button:hover{transform:translateY(-3px);box-shadow:0 7px 20px #a15f8025}.eyebrow{font-size:10px;letter-spacing:1.8px;text-transform:uppercase;color:var(--rose)}section{padding:30px 0}h2{font-size:31px;line-height:1.28;margin:10px 0 18px}h3{font-size:20px;line-height:1.35;margin:10px 0}.why{background:var(--purple);padding:29px;border-radius:24px}.why p{font-size:14px;color:#796b80;margin:0}.problem{margin-top:20px;padding:19px 23px;border-left:3px solid #d1b8d9;background:#ffffff85;border-radius:0 14px 14px 0}.problem p{font-size:13px;color:var(--soft);margin:5px 0 0}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:24px}.card{border-radius:21px;padding:23px;background:#fae5e0;transition:transform .25s}.card:nth-child(2){background:var(--sage)}.card:nth-child(3){background:#f3e4ee}.card:hover{transform:translateY(-5px)}.index{font:italic 24px Georgia,serif;color:#a2778d}.card p{font-size:12px;color:#7c6c77;margin-bottom:0}.tag{font-size:10px;display:inline-block;padding:3px 8px;border:1px solid #b9a2af66;border-radius:20px;margin:9px 3px 0 0}.project{background:white;border:1px solid var(--line);border-radius:23px;padding:28px}.projecthead{display:flex;justify-content:space-between;gap:20px;align-items:center}.duration{flex-shrink:0;background:var(--pink);padding:13px 18px;border-radius:18px;text-align:center;font-size:10px;color:#94617a}.duration span{display:block;font:32px Georgia,serif}.meta{font-size:11px;color:#a18093}.project p{font-size:13px;color:var(--soft)}.project .label{font-size:10px;text-transform:uppercase;letter-spacing:1.4px;color:var(--rose);margin:17px 0 4px}.honest{font-size:10px!important;color:#a08b97!important;margin-bottom:0}.workflow{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-top:20px}.step{padding:17px 13px;border-radius:15px;background:#f5eee9;font-size:11px;color:var(--soft)}.step span{display:block;font:17px Georgia,serif;color:#775266;margin-bottom:5px}.caption{font-size:11px;color:#9c8795}.timeline{border-left:2px solid #e6d6e1;margin:23px 0 0 5px;padding-left:24px}.job{position:relative;padding-bottom:23px}.job:before{content:'';position:absolute;left:-30px;top:8px;width:10px;height:10px;border-radius:50%;background:#c9a5bb;box-shadow:0 0 0 5px var(--bg)}.job small{font-size:10px;color:#a37e92}.job h3{font-size:19px;margin:5px 0}.job p{font-size:12px;color:var(--soft);margin:0}.about{display:grid;grid-template-columns:1fr 1fr;gap:25px;border-top:1px solid var(--line);padding-top:25px}.about p{font-size:12px;color:var(--soft)}details{border:1px solid var(--line);border-radius:15px;padding:14px 18px;margin-top:12px;background:#ffffff85}summary{cursor:pointer;font-size:12px;color:#8a6078}details p{font-size:11px;color:var(--soft);margin:12px 0 2px}.contact{text-align:center;padding:43px 10px 25px}.contact h2{font-size:36px}.contact p{font-size:13px;color:var(--soft)}.email{display:block;font-size:11px;color:#9c8794;margin-top:13px}.location{font-size:10px;color:#9c8a96;text-align:center;max-width:690px;margin:17px auto 28px}footer{border-top:1px solid var(--line);padding:18px 0 23px;text-align:center;font-size:10px;color:#aa94a2}.entry{animation:appear .8s both}.later{animation-delay:.15s}.petal{position:absolute;width:8px;height:12px;border-radius:70% 20%;pointer-events:none;animation:petals 1.2s ease-out forwards}@keyframes float{0%,100%{transform:translateY(0) rotate(-3deg)}50%{transform:translateY(-6px) rotate(3deg)}}@keyframes spin{to{transform:rotate(360deg)}}@keyframes appear{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:translateY(0)}}@keyframes petals{from{opacity:1;transform:translate(0,0) rotate(0)}to{opacity:0;transform:translate(var(--x),var(--y)) rotate(180deg)}}@media(max-width:650px){main{padding:22px 20px 0}.navlinks{gap:15px}.navlinks a:first-child{display:none}.hero{padding-top:35px}.grid,.about{grid-template-columns:1fr}.workflow{grid-template-columns:1fr 1fr}.about{gap:10px}.project{padding:22px}.projecthead{align-items:flex-start}.duration{padding:10px 14px}h2{font-size:28px}.why{padding:24px}.intro{font-size:15px}}@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{animation:none!important;transition:none!important}.petal{display:none}}@media print{nav,.button{display:none}body{background:white}.hero{padding-top:0}.card,.project,.why,.job{break-inside:avoid}details{display:block}}
-</style></head><body><main><nav><a class="signature" href="#">Imene.</a><div class="navlinks"><a href="#fit">Why Gainwell</a><a href="#experience">My experience</a><a href="mailto:hidri0204@gmail.com">Say hello ↗</a></div></nav>
-<header class="hero entry"><span class="badge">For Gainwell Technologies · Early Career C# .NET Developer</span><div class="avatar" aria-hidden="true"><span class="initials">ih.</span><svg class="flower" viewBox="0 0 100 100"><g fill="#cdb7df"><ellipse cx="50" cy="25" rx="17" ry="24"/><ellipse cx="50" cy="75" rx="17" ry="24"/><ellipse cx="25" cy="50" rx="24" ry="17"/><ellipse cx="75" cy="50" rx="24" ry="17"/><ellipse cx="32" cy="32" rx="16" ry="23" transform="rotate(-45 32 32)"/><ellipse cx="68" cy="68" rx="16" ry="23" transform="rotate(-45 68 68)"/><ellipse cx="68" cy="32" rx="16" ry="23" transform="rotate(45 68 32)"/><ellipse cx="32" cy="68" rx="16" ry="23" transform="rotate(45 32 68)"/></g><circle cx="50" cy="50" r="15" fill="#ffe5a7"/></svg></div><h1>Hi, I’m Imene.<br>Thoughtful code.<br><em>Useful applications.</em></h1><p class="intro">I’m an early-career C#/.NET developer with practical experience improving internal applications at NTN Europe. I’m ready to keep learning while contributing to software that supports healthcare services.</p><div class="skills"><span>C# / .NET</span><span>Blazor & MudBlazor</span><span>PostgreSQL</span><span>Microsoft Dynamics 365</span></div><a class="button" href="#fit">A little more about me ↓</a></header>
-<section id="fit" class="entry later"><div class="why"><div class="eyebrow">Why this role, beyond the brand</div><h2>Real applications. A purpose that matters.</h2><p>I’m drawn to the opportunity to improve software that helps clients serve people with healthcare needs, including vulnerable communities. The role also offers the engineering foundation I’m looking for: understanding existing systems, making focused changes, testing them, and documenting the work alongside a team.</p></div><div class="problem"><div class="eyebrow">The challenge, as I understand it</div><p>Gainwell needs to improve its healthcare applications without disrupting their reliability. That is why careful development, troubleshooting, testing, and clear documentation matter—not just writing more code.</p></div><div class="grid"><article class="card"><span class="index">01.</span><h3>Improve existing software.</h3><p>Your role involves modifying applications to meet user needs. At NTN Europe, I have improved existing interfaces, extended an internal assistant, and developed CRM functionality.</p><span class="tag">Application enhancements</span><span class="tag">C# / .NET</span></article><article class="card"><span class="index">02.</span><h3>Bring a student developer’s experience.</h3><p>Your early-career opening matches my stage: two development internships followed by a .NET apprenticeship. I bring experience in a company environment and room to grow with feedback.</p><span class="tag">Internships</span><span class="tag">Apprenticeship</span></article><article class="card"><span class="index">03.</span><h3>Build good engineering habits.</h3><p>I want to strengthen the skills your team uses every day: debugging, preparing test data, checking program logic, writing documentation, and participating in peer reviews.</p><span class="tag">Quality mindset</span><span class="tag">Learning goals</span></article></div></section>
-<section><div class="eyebrow">One story · One concrete number</div><h2>Working with an application that already exists.</h2><article class="project"><div class="projecthead"><div><span class="meta">NTN Europe · AI & .NET internship · Jan–Apr 2025</span><h3>A clearer interface for internal users.</h3></div><div class="duration"><span>4</span>months</div></div><p class="label">The setting</p><p>An existing internal application, with interface improvements needed to support a better user experience.</p><p class="label">What I did</p><p>I improved the interface with Blazor and MudBlazor. During the same internship, I developed and integrated document-based AI chatbots and implemented user roles and permissions through Microsoft Graph API.</p><p class="label">Why it matters for Gainwell</p><p>This is practical experience contributing changes to an existing system, integrating functionality, and paying attention to how people use the application.</p><p class="honest">The number is the internship’s duration, not a measured business outcome. No unverified performance or productivity gain is claimed.</p></article></section>
-<section><div class="eyebrow">How I want to contribute</div><h2>Understand. Build. Check. Share.</h2><div class="workflow"><div class="step"><span>01 · Understand</span>Read the existing code, clarify the need, and ask questions before changing behavior.</div><div class="step"><span>02 · Build</span>Contribute a focused enhancement that meets the user’s requirements.</div><div class="step"><span>03 · Check</span>Prepare test cases, compare expected and actual results, and investigate issues.</div><div class="step"><span>04 · Share</span>Document the change and use peer feedback to improve it.</div></div><p class="caption">My intended approach in the role, with guidance—not a claim of previous ownership of testing or production support.</p></section>
-<section id="experience"><div class="eyebrow">My experience</div><h2>Learning by building, in a real team.</h2><div class="timeline"><article class="job"><small>September 2025 — Present · NTN Europe, France</small><h3>AI & .NET Developer · Apprenticeship</h3><p>Extending an internal Azure OpenAI assistant, improving its interface, and developing Semantic Kernel plugins for its orchestration.</p></article><article class="job"><small>January–April 2025 · NTN Europe, France</small><h3>AI & .NET Developer · Internship</h3><p>Blazor/MudBlazor interface improvements, Azure OpenAI and Azure Search chatbot integration, and user-role and permission management through Microsoft Graph API.</p></article><article class="job"><small>May–July 2024 · NTN Europe, France</small><h3>Dynamics 365 Developer · Internship</h3><p>Updated and optimized CRM workflows, developed and integrated new features, and worked on performance and user experience.</p></article></div></section>
-<section class="about"><div><div class="eyebrow">My foundations</div><h3>Application development, with more to learn.</h3><p>BUT in Computer Science, application design and development · Université Savoie Mont-Blanc · 2022–2025.</p><p>Full-stack development programme · 2025–2027, in progress.</p><details><summary>Database fit: a transparent note</summary><p>My CV lists PostgreSQL, MongoDB, and Cosmos DB. PostgreSQL is my listed relational database technology; I do not claim professional SQL Server experience or specific SQL-query accomplishments not documented in my CV. I would welcome discussing my current database skills and the training needed for your SQL Server environment.</p></details><details><summary>Testing, data analysis & production support</summary><p>These are important responsibilities in this opening. I am interested in building practical capability in unit testing, test planning, troubleshooting, data analysis, documentation, and peer review. My CV does not establish previous ownership of these activities.</p></details></div><div><div class="eyebrow">A little more about me</div><h3>Curious, in and out of development.</h3><p>Italian: native · French: bilingual · English: B2.</p><p>My academic experience in Singapore included mobile development in an English-speaking, multicultural environment.</p><p>Outside coding, I enjoy pop choreography, video games, and anime. I have also contributed to association communications and student liaison activities.</p></div></section>
-<section class="contact"><div class="eyebrow">Imene Hidri · Early-career C#/.NET developer</div><h2>Let’s build something helpful.</h2><p>I’d welcome the chance to discuss how I could contribute to your team and grow with Gainwell.</p><a class="button" id="hello" href="mailto:hidri0204@gmail.com">Say hello ↗</a><span class="email">hidri0204@gmail.com</span></section><p class="location">Practical note: this opening is remote within the United States only. My experience is based in France; US location eligibility, work authorization, start date, schedule flexibility, and travel availability would need to be confirmed. This page does not imply they are already established.</p><footer>Imene Hidri · Prepared for Gainwell Technologies · Independent candidate presentation</footer></main><script>
-const hello=document.getElementById('hello');hello.addEventListener('pointerenter',()=>{if(matchMedia('(prefers-reduced-motion: reduce)').matches)return;const r=hello.getBoundingClientRect();for(let i=0;i<8;i++){const e=document.createElement('span');e.className='petal';e.setAttribute('aria-hidden','true');e.style.left=(r.left+scrollX+r.width/2)+'px';e.style.top=(r.top+scrollY)+'px';e.style.background=['#e4bdd0','#cdbbe1','#d4dfbf'][i%3];e.style.setProperty('--x',((Math.random()-.5)*170)+'px');e.style.setProperty('--y',(-30-Math.random()*80)+'px');document.body.appendChild(e);setTimeout(()=>e.remove(),1300)}});
-</script></body></html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Imene Hidri · Gainwell</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500;600;700&family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#fbf7f4;--card:#ffffff;--ink:#4a4150;--soft:#857a89;
+  --blush:#f4d9dc;--blush2:#d9a3ab;--rose:#b9737e;
+  --sage:#d6e6da;--sage2:#8fb59b;--sky:#dce8f2;--sky2:#9fbdd6;--butter:#f7eccb;--line:#efe5e2;
+}
+*{box-sizing:border-box;min-width:0}
+html{scroll-behavior:smooth;scroll-padding-top:20px}
+body{margin:0;background:var(--bg);color:var(--ink);font:16.5px/1.7 Nunito,system-ui,sans-serif;overflow-x:clip}
+h1,h2,h3{font-family:Quicksand,Nunito,sans-serif;font-weight:600;line-height:1.15;text-wrap:balance;margin:0}
+h2{font-size:clamp(28px,3.8vw,40px);margin-bottom:14px}
+h3{font-size:20px}
+p{margin:0}
+.band{padding:clamp(48px,7vw,96px) max(6vw,18px)}
+.wrap{max-width:1060px;margin:0 auto}
+.kicker{display:inline-block;font-size:14.5px;font-weight:700;color:var(--rose);background:var(--blush);padding:5px 15px;border-radius:99px;margin-bottom:16px}
+.kicker.g{background:var(--sage);color:#4f7a5d}.kicker.b{background:var(--sky);color:#4d6f8c}.kicker.y{background:var(--butter);color:#8a6d23}
+.lead{color:var(--soft);max-width:62ch;font-size:17.5px}
+.note{font-size:14px;color:var(--soft);margin-top:18px;font-style:italic}
+
+/* hero */
+nav{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap;max-width:1060px;margin:0 auto;padding:22px max(6vw,18px) 0}
+.mono{width:48px;height:48px;border-radius:50%;background:var(--blush);display:grid;place-items:center;font:700 18px Quicksand;color:var(--rose);text-decoration:none}
+nav .for{font-size:14.5px;color:var(--soft)}
+.hero{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,1fr);gap:clamp(28px,5vw,64px);align-items:center}
+.hero h1{font-size:clamp(40px,5.8vw,62px)}
+.hero h1 span{display:block}
+.hero h1 .l2{color:var(--rose)}.hero h1 .l3{color:var(--sage2)}
+.hero .lead{margin:22px 0 26px}
+.chips{display:flex;flex-wrap:wrap;gap:8px}
+.chip{padding:6px 15px;border-radius:99px;font-size:15px;background:var(--card);border:1.5px solid var(--line)}
+.down{display:inline-flex;align-items:center;gap:8px;margin-top:30px;color:var(--rose);font-weight:700;text-decoration:none;min-height:44px}
+.down i{display:inline-block;font-style:normal;animation:nudge 2s ease-in-out infinite}
+.fig{position:relative;aspect-ratio:1/1;width:100%;max-width:440px;justify-self:center}
+.fig svg{position:absolute;inset:0;width:100%;height:100%;overflow:visible}
+.breathe{animation:breathe 9s ease-in-out infinite;transform-origin:center;transform-box:fill-box}
+.breathe.r{animation-duration:12s;animation-direction:reverse}
+.spin{animation:spin 50s linear infinite;transform-origin:220px 220px}
+.drift{animation:drift 7s ease-in-out infinite}.drift.d2{animation-delay:-2.3s}.drift.d3{animation-delay:-4.6s}
+.fig text{font:600 15px Quicksand,sans-serif;fill:#4a4150}
+
+/* why */
+.why{display:grid;grid-template-columns:minmax(0,1.2fr) minmax(0,1fr);gap:28px;align-items:start}
+.why .lead{margin-top:6px}
+.challenge{background:var(--card);border-radius:26px;padding:28px;box-shadow:0 10px 30px rgba(74,65,80,.05);border-left:6px solid var(--sage2)}
+.challenge h3{margin-bottom:10px}
+.challenge p{color:var(--soft)}
+
+/* three points */
+.points{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,290px),1fr));gap:18px;margin-top:34px}
+.pt{background:var(--card);border-radius:26px;padding:28px;box-shadow:0 8px 30px rgba(74,65,80,.05);display:flex;flex-direction:column;gap:12px;transition:transform .5s,box-shadow .5s}
+.pt:hover{transform:translateY(-4px);box-shadow:0 16px 40px rgba(74,65,80,.08)}
+.pt .n{width:46px;height:46px;border-radius:50%;display:grid;place-items:center;font:700 17px Quicksand}
+.pt:nth-child(1) .n{background:var(--blush);color:var(--rose)}
+.pt:nth-child(2) .n{background:var(--sage);color:#4f7a5d}
+.pt:nth-child(3) .n{background:var(--sky);color:#4d6f8c}
+.pt p{color:var(--soft);font-size:15.5px;flex:1}
+.tags{display:flex;flex-wrap:wrap;gap:6px}
+.tags span{font-size:13.5px;padding:3px 12px;border-radius:99px;background:var(--bg)}
+
+/* story */
+.story-band{background:linear-gradient(180deg,var(--bg),#f5ecec 18%,#f5ecec 82%,var(--bg))}
+.story{background:var(--card);border-radius:32px;padding:clamp(26px,4vw,44px);box-shadow:0 18px 50px rgba(185,115,126,.10);display:grid;grid-template-columns:minmax(0,220px) minmax(0,1fr);gap:clamp(24px,4vw,48px)}
+.big{background:var(--blush);border-radius:26px;display:grid;place-content:center;text-align:center;padding:28px 16px;position:relative;overflow:hidden}
+.big::after{content:"";position:absolute;width:160px;height:160px;border-radius:50%;background:#fff;opacity:.35;bottom:-70px;right:-60px}
+.big b{font:700 clamp(64px,9vw,96px)/1 Quicksand;color:var(--rose)}
+.big span{font-weight:700;color:var(--rose)}
+.story .meta{color:var(--soft);font-size:15px;margin-bottom:6px}
+.story h3{font-size:clamp(22px,2.6vw,28px);margin-bottom:20px}
+.steps3{display:grid;gap:16px}
+.steps3 div{padding-left:18px;border-left:3px solid var(--line)}
+.steps3 div:nth-child(1){border-color:var(--blush2)}.steps3 div:nth-child(2){border-color:var(--sage2)}.steps3 div:nth-child(3){border-color:var(--sky2)}
+.steps3 h4{margin:0 0 2px;font:700 15px Nunito;color:var(--ink)}
+.steps3 p{color:var(--soft);font-size:15.5px}
+
+/* approach */
+.flow{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:14px;margin-top:30px;position:relative}
+.flow::before{content:"";position:absolute;top:31px;left:12%;right:12%;height:3px;background:linear-gradient(90deg,var(--blush2),var(--sage2),var(--sky2),#e3c873);border-radius:3px;opacity:.6}
+.st{text-align:center;padding:0 6px;position:relative}
+.st .c{width:64px;height:64px;border-radius:50%;margin:0 auto 14px;display:grid;place-items:center;font:700 20px Quicksand;background:var(--card);box-shadow:0 6px 18px rgba(74,65,80,.08);position:relative}
+.st:nth-child(1) .c{color:var(--rose)}.st:nth-child(2) .c{color:#4f7a5d}.st:nth-child(3) .c{color:#4d6f8c}.st:nth-child(4) .c{color:#8a6d23}
+.st .c::after{content:"";position:absolute;inset:-6px;border-radius:50%;border:2px solid currentColor;opacity:0;animation:ring 4s ease-out infinite}
+.st:nth-child(2) .c::after{animation-delay:1s}.st:nth-child(3) .c::after{animation-delay:2s}.st:nth-child(4) .c::after{animation-delay:3s}
+.st h3{font-size:19px;margin-bottom:6px}
+.st p{color:var(--soft);font-size:15px}
+
+/* experience */
+.tl{list-style:none;margin:30px 0 0;padding:0;display:grid;gap:16px}
+.tl li{display:grid;grid-template-columns:190px minmax(0,1fr);gap:24px;background:var(--card);border-radius:24px;padding:24px 28px}
+.when{color:var(--rose);font-weight:700;font-size:14.5px}
+.when small{display:block;color:var(--soft);font-weight:400}
+.tl h3{font-size:19px;margin-bottom:4px}
+.tl p{color:var(--soft);font-size:15.5px}
+
+/* foundations + notes */
+.found{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,300px),1fr));gap:18px;margin-top:30px}
+.box{background:var(--card);border-radius:24px;padding:26px}
+.box h3{margin-bottom:10px}
+.box p{color:var(--soft);font-size:15.5px}
+.box p+p{margin-top:10px}
+.box.n1{background:#f1f7f2}.box.n2{background:#f1f5fa}
+.box .ic{width:36px;height:36px;border-radius:12px;margin-bottom:14px}
+.box.n1 .ic{background:var(--sage)}.box.n2 .ic{background:var(--sky)}.box.n0 .ic{background:var(--blush)}
+
+/* about */
+.about{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:26px;align-items:center}
+.langs{display:grid;gap:10px}
+.lg{display:flex;justify-content:space-between;gap:12px;padding:12px 18px;border-radius:16px;background:var(--card)}
+.lg em{font-style:normal;color:var(--soft)}
+.likes{display:flex;flex-wrap:wrap;gap:8px;margin-top:18px}
+.likes span{padding:6px 15px;border-radius:99px;font-size:15px}
+.likes span:nth-child(1){background:var(--blush)}.likes span:nth-child(2){background:var(--sage)}.likes span:nth-child(3){background:var(--sky)}.likes span:nth-child(4){background:var(--butter)}
+.about .lead+.lead{margin-top:12px}
+
+/* contact */
+.contact{text-align:center}
+.inner{max-width:740px;margin:0 auto;background:var(--card);border-radius:36px;padding:clamp(32px,5vw,60px);box-shadow:0 20px 50px rgba(185,115,126,.14);position:relative;overflow:hidden}
+.inner::before,.inner::after{content:"";position:absolute;border-radius:50%;z-index:0}
+.inner::before{width:230px;height:230px;background:var(--blush);opacity:.55;top:-100px;left:-80px}
+.inner::after{width:190px;height:190px;background:var(--sage);opacity:.55;bottom:-90px;right:-60px}
+.inner>*{position:relative;z-index:1}
+.inner .meta{color:var(--soft);font-size:15px;margin-bottom:8px}
+.inner .lead{margin:14px auto 26px}
+.btns{display:flex;flex-wrap:wrap;gap:12px;justify-content:center}
+.btn{display:inline-flex;align-items:center;min-height:48px;padding:0 26px;border-radius:99px;font:700 16px Nunito,sans-serif;color:var(--ink);background:var(--card);border:1.5px solid var(--line);cursor:pointer;transition:transform .4s,box-shadow .4s}
+.btn.main{background:var(--blush);border-color:var(--blush)}
+.btn:hover{transform:translateY(-2px);box-shadow:0 10px 24px rgba(185,115,126,.18)}
+.btn:focus-visible,.down:focus-visible,.mono:focus-visible{outline:2px solid var(--blush2);outline-offset:3px}
+.addr{margin-top:18px;color:var(--soft);font-size:15px}
+#toast{position:fixed;left:50%;bottom:24px;transform:translate(-50%,120px);background:var(--ink);color:#fff;padding:11px 22px;border-radius:99px;transition:transform .4s;z-index:9}
+#toast.show{transform:translate(-50%,0)}
+footer{text-align:center;padding:10px 16px 40px;color:var(--soft);font-size:14px}
+
+.rv{opacity:0;transform:translateY(18px);transition:opacity 1s ease,transform 1s ease}
+.rv.in{opacity:1;transform:none}
+@keyframes breathe{50%{transform:scale(1.05) rotate(6deg)}}
+@keyframes spin{to{transform:rotate(360deg)}}
+@keyframes drift{50%{transform:translateY(-9px)}}
+@keyframes nudge{50%{transform:translateY(5px)}}
+@keyframes ring{0%{opacity:.5;transform:scale(.9)}60%,100%{opacity:0;transform:scale(1.35)}}
+
+@media(max-width:860px){.hero,.why,.about{grid-template-columns:minmax(0,1fr)}.fig{max-width:360px}.flow{grid-template-columns:repeat(2,minmax(0,1fr));row-gap:28px}.flow::before{display:none}}
+@media(max-width:640px){.story{grid-template-columns:minmax(0,1fr)}.tl li{grid-template-columns:minmax(0,1fr);gap:6px;padding:22px}}
+@media(max-width:420px){.flow{grid-template-columns:minmax(0,1fr)}}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important}.rv{opacity:1;transform:none}}
+</style>
+</head>
+<body>
+
+<nav>
+  <a class="mono" href="#top" aria-label="Back to top">ih.</a>
+  <span class="for">For Gainwell Technologies · Early Career C# .NET Developer</span>
+</nav>
+
+<!-- HERO -->
+<header class="band" id="top">
+  <div class="wrap hero">
+    <div>
+      <h1><span>Hi, I'm Imene.</span><span class="l2">Thoughtful code.</span><span class="l3">Useful applications.</span></h1>
+      <p class="lead">I'm an early-career C#/.NET developer with practical experience improving internal applications at NTN Europe. I'm ready to keep learning while contributing to software that supports healthcare services.</p>
+      <div class="chips"><span class="chip">C# / .NET</span><span class="chip">Blazor &amp; MudBlazor</span><span class="chip">PostgreSQL</span><span class="chip">Microsoft Dynamics 365</span></div>
+      <a class="down" href="#why">A little more about me <i>↓</i></a>
+    </div>
+    <div class="fig" aria-hidden="true">
+      <svg viewBox="0 0 440 440">
+        <path class="breathe" d="M220 36c82 0 166 52 176 140s-40 186-148 214S46 352 42 244 140 36 220 36z" fill="#f4d9dc"/>
+        <path class="breathe r" d="M238 84c70 10 128 70 118 148s-70 138-148 128-128-70-118-148 78-138 148-128z" fill="#d6e6da" opacity=".85"/>
+        <circle cx="220" cy="220" r="96" fill="#fbf7f4"/>
+        <g class="spin">
+          <circle cx="220" cy="100" r="10" fill="#d9a3ab"/><circle cx="340" cy="220" r="8" fill="#9fbdd6"/>
+          <circle cx="220" cy="340" r="10" fill="#8fb59b"/><circle cx="100" cy="220" r="7" fill="#e8d28a"/>
+        </g>
+        <g transform="translate(220 212)">
+          <g class="spin" style="transform-origin:0 0;animation-duration:70s">
+            <ellipse rx="21" ry="38" cy="-33" fill="#f4d9dc"/><ellipse rx="21" ry="38" cy="-33" fill="#f4d9dc" transform="rotate(72)"/>
+            <ellipse rx="21" ry="38" cy="-33" fill="#f4d9dc" transform="rotate(144)"/><ellipse rx="21" ry="38" cy="-33" fill="#f4d9dc" transform="rotate(216)"/>
+            <ellipse rx="21" ry="38" cy="-33" fill="#f4d9dc" transform="rotate(288)"/>
+          </g>
+          <circle r="21" fill="#f7eccb"/>
+        </g>
+        <text x="220" y="292" text-anchor="middle" style="fill:#857a89;font-size:14px">care · code · team</text>
+        <g class="drift"><rect x="14" y="118" width="122" height="38" rx="19" fill="#fff"/><text x="75" y="142" text-anchor="middle">Understand</text></g>
+        <g class="drift d2"><rect x="310" y="70" width="96" height="38" rx="19" fill="#fff"/><text x="358" y="94" text-anchor="middle">Build</text></g>
+        <g class="drift d3"><rect x="318" y="324" width="96" height="38" rx="19" fill="#fff"/><text x="366" y="348" text-anchor="middle">Check</text></g>
+        <g class="drift d2"><rect x="32" y="324" width="96" height="38" rx="19" fill="#fff"/><text x="80" y="348" text-anchor="middle">Share</text></g>
+      </svg>
+    </div>
+  </div>
+</header>
+
+<!-- WHY -->
+<section class="band" id="why" style="padding-top:20px">
+  <div class="wrap">
+    <div class="why">
+      <div class="rv">
+        <span class="kicker">Why this role, beyond the brand</span>
+        <h2>Real applications. A purpose that matters.</h2>
+        <p class="lead">I'm drawn to the opportunity to improve software that helps clients serve people with healthcare needs, including vulnerable communities. The role also offers the engineering foundation I'm looking for: understanding existing systems, making focused changes, testing them, and documenting the work alongside a team.</p>
+      </div>
+      <div class="challenge rv">
+        <h3>The challenge, as I understand it</h3>
+        <p>Gainwell needs to improve its healthcare applications without disrupting their reliability. That is why careful development, troubleshooting, testing and clear documentation matter, not just writing more code.</p>
+      </div>
+    </div>
+    <div class="points" id="points"></div>
+  </div>
+</section>
+
+<!-- STORY -->
+<section class="band story-band">
+  <div class="wrap">
+    <span class="kicker g rv">One story · One concrete number</span>
+    <h2 class="rv">Working with an application that already exists.</h2>
+    <div class="story rv" style="margin-top:26px">
+      <div class="big"><b>4</b><span>months</span></div>
+      <div>
+        <div class="meta">NTN Europe · AI &amp; .NET internship · Jan–Apr 2025</div>
+        <h3>A clearer interface for internal users.</h3>
+        <div class="steps3">
+          <div><h4>The setting</h4><p>An existing internal application that needed interface improvements to support a better user experience.</p></div>
+          <div><h4>What I did</h4><p>I improved the interface with Blazor and MudBlazor. During the same internship, I developed and integrated document-based AI chatbots and implemented user roles and permissions through Microsoft Graph API.</p></div>
+          <div><h4>Why it matters for Gainwell</h4><p>Practical experience contributing changes to an existing system, integrating functionality, and paying attention to how people use the application.</p></div>
+        </div>
+      </div>
+    </div>
+    <p class="note rv">The number is the internship's duration, not a measured business outcome.</p>
+  </div>
+</section>
+
+<!-- APPROACH -->
+<section class="band">
+  <div class="wrap">
+    <span class="kicker b rv">How I want to contribute</span>
+    <h2 class="rv">Understand. Build. Check. Share.</h2>
+    <div class="flow rv" id="flow"></div>
+    <p class="note rv" style="text-align:center">My intended approach in the role, with guidance from the team.</p>
+  </div>
+</section>
+
+<!-- EXPERIENCE -->
+<section class="band" style="padding-top:0">
+  <div class="wrap">
+    <span class="kicker rv">My experience</span>
+    <h2 class="rv">Learning by building, in a real team.</h2>
+    <ol class="tl" id="timeline"></ol>
+  </div>
+</section>
+
+<!-- FOUNDATIONS -->
+<section class="band" style="padding-top:0">
+  <div class="wrap">
+    <span class="kicker y rv">My foundations</span>
+    <h2 class="rv">Application development, with more to learn.</h2>
+    <div class="found">
+      <div class="box n0 rv"><div class="ic"></div><h3>Education</h3>
+        <p>BUT in Computer Science, application design and development · Université Savoie Mont-Blanc · 2022–2025.</p>
+        <p>Full-stack development programme · 2025–2027, in progress.</p></div>
+      <div class="box n1 rv"><div class="ic"></div><h3>Database fit: a transparent note</h3>
+        <p>PostgreSQL is my main relational database; I've also used MongoDB and Cosmos DB. I don't claim professional SQL Server experience, and I'd welcome discussing my current database skills and the training needed for your SQL Server environment.</p></div>
+      <div class="box n2 rv"><div class="ic"></div><h3>Testing, data analysis &amp; production support</h3>
+        <p>These are important parts of this role. I'm keen to build practical skills in unit testing, test planning, troubleshooting, data analysis, documentation and peer review.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section class="band" style="padding-top:0">
+  <div class="wrap about">
+    <div class="rv">
+      <span class="kicker g">A little more about me</span>
+      <h2>Curious, in and out of development.</h2>
+      <p class="lead">My academic experience in Singapore included mobile development in an English-speaking, multicultural environment.</p>
+      <p class="lead">I've also contributed to association communications and student liaison activities.</p>
+      <div class="likes"><span>Pop choreography</span><span>Associations</span></div>
+    </div>
+    <div class="langs rv">
+      <div class="lg"><span>Italian</span><em>Native</em></div>
+      <div class="lg"><span>French</span><em>Bilingual</em></div>
+      <div class="lg"><span>English</span><em>B2</em></div>
+      <div class="lg"><span>Arabic</span><em>A2</em></div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="band contact" id="contact">
+  <div class="inner rv">
+    <div class="meta">Imene Hidri · Early-career C#/.NET developer</div>
+    <h2>Let's build something helpful.</h2>
+    <p class="lead">I'd welcome the chance to discuss how I could contribute to your team and grow with Gainwell.</p>
+    <div class="btns">
+      <button class="btn main" data-copy="hidri0204@gmail.com">Copy my email</button>
+      <button class="btn" data-copy="+33 6 15 58 43 17">Copy my phone number</button>
+    </div>
+    <div class="addr">hidri0204@gmail.com · +33 6 15 58 43 17</div>
+  </div>
+</section>
+
+<footer>Imene Hidri · 2026</footer>
+<div id="toast" role="status" aria-live="polite"></div>
+
+<script>
+{
+const pts=[
+ {t:"Improve existing software.",p:"Your role involves modifying applications to meet user needs. At NTN Europe, I have improved existing interfaces, extended an internal assistant, and developed CRM functionality.",g:["Application enhancements","C# / .NET"]},
+ {t:"Bring a student developer's experience.",p:"Your early-career opening matches my stage: two development internships followed by a .NET apprenticeship. I bring experience in a company environment and room to grow with feedback.",g:["Internships","Apprenticeship"]},
+ {t:"Build good engineering habits.",p:"I want to strengthen the skills your team uses every day: debugging, preparing test data, checking program logic, writing documentation, and taking part in peer reviews.",g:["Quality mindset","Learning goals"]}
+];
+document.getElementById('points').innerHTML=pts.map((x,i)=>`<article class="pt rv"><div class="n">0${i+1}</div><h3>${x.t}</h3><p>${x.p}</p><div class="tags">${x.g.map(t=>`<span>${t}</span>`).join('')}</div></article>`).join('');
+
+const flow=[
+ ["Understand","Read the existing code, clarify the need, and ask questions before changing behaviour."],
+ ["Build","Contribute a focused enhancement that meets the user's requirements."],
+ ["Check","Prepare test cases, compare expected and actual results, and investigate issues."],
+ ["Share","Document the change and use peer feedback to improve it."]
+];
+document.getElementById('flow').innerHTML=flow.map(([t,p],i)=>`<div class="st"><div class="c">0${i+1}</div><h3>${t}</h3><p>${p}</p></div>`).join('');
+
+const jobs=[
+ {w:"Sep 2025 — Present",c:"NTN Europe, France",t:"AI & .NET Developer · Apprenticeship",p:"Extending an internal Azure OpenAI assistant, improving its interface, and developing Semantic Kernel plugins for its orchestration."},
+ {w:"Jan – Apr 2025",c:"NTN Europe, France",t:"AI & .NET Developer · Internship",p:"Blazor/MudBlazor interface improvements, Azure OpenAI and Azure Search chatbot integration, and user-role and permission management through Microsoft Graph API."},
+ {w:"May – Jul 2024",c:"NTN Europe, France",t:"Dynamics 365 Developer · Internship",p:"Updated and optimised CRM workflows, developed and integrated new features, and worked on performance and user experience."}
+];
+document.getElementById('timeline').innerHTML=jobs.map(j=>`<li class="rv"><div class="when">${j.w}<small>${j.c}</small></div><div><h3>${j.t}</h3><p>${j.p}</p></div></li>`).join('');
+
+const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}}),{threshold:.12});
+document.querySelectorAll('.rv').forEach(el=>io.observe(el));
+
+const toast=document.getElementById('toast');let tt;
+document.querySelectorAll('[data-copy]').forEach(b=>b.addEventListener('click',async()=>{
+  let msg='Copied!';
+  try{await navigator.clipboard.writeText(b.dataset.copy)}catch(e){msg=b.dataset.copy}
+  toast.textContent=msg;toast.classList.add('show');clearTimeout(tt);tt=setTimeout(()=>toast.classList.remove('show'),2200);
+}));
+}
+</script>
+</body>
+</html>
